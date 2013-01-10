@@ -3,6 +3,10 @@
 
 enum {BINASCII_OK = 0};
 
+#define BINASCII_HEXLIFY_OUT_SIZE(s)	((s) * 2)
+#define BINASCII_UNHEXLIFY_OUT_SIZE(s)	((s) / 2)
+
+
 int
 binascii_hexlify(unsigned char *in, int inlen, char *out);
 
