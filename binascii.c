@@ -1,4 +1,5 @@
-/* This is a public domain Python binascii C implementation written by WEI Zhicheng. */
+/* binascii was written by WEI Zhicheng, and is placed in the public
+ * domain. The author hereby disclaims copyright to this source code. */
 
 #include <ctype.h>
 
